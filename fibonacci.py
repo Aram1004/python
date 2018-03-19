@@ -1,23 +1,11 @@
-starNumber = int(raw_input("Enter the start number here")
-endNumber = int(raw_input("Enter the end number here"))
+starNumber = int(input("Enter the start number here"))
+endNumber = int(input("Enter the end number here"))
 
-def fib(n): 
-    if n <2:
-        return n 
-    return fib(n-2) + fib(n-1)
 
-    print map(fib, range(startNumber, endNumber))
-    """
-    피보나치 수열을 계산하는 함수를 작성하시오. 피보나치 수의 정의는 아래와 같다.
-
-    f(n) = 0 if n = 0
-    f(n) = 1 if n = 1
-    f(n) = f(n-1) + f(n-2) if n > 1
-
-    단 n에는 0 이상의 정수가 입력되는 것으로 가정하라.
-    """
-    
-    return 0
+def fibonacci(n):
+    if n < 2:
+        return n
+    return fibonacci(n-2) + fibonacci(n-1)
 
 
 for i in range(11):
@@ -36,3 +24,12 @@ f(8) = 21
 f(9) = 34
 f(10) = 55
 """
+"""
+    피보나치 수열을 계산하는 함수를 작성하시오. 피보나치 수의 정의는 아래와 같다.
+
+    f(n) = 0 if n = 0
+    f(n) = 1 if n = 1
+    f(n) = f(n-1) + f(n-2) if n > 1
+
+    단 n에는 0 이상의 정수가 입력되는 것으로 가정하라.
+    """
