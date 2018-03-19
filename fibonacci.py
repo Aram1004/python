@@ -1,5 +1,5 @@
-starNumber = int(input("Enter the start number here"))
-endNumber = int(input("Enter the end number here"))
+#starNumber = int(input("Enter the start number here"))
+#endNumber = int(input("Enter the end number here"))
 
 
 def fibonacci(n):
